@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:layout_height="wrap_content">
+
+        <com.example.shengdian.staggerwithrecycle.widget.CircleImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/item_twoIv"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content">
+        <com.example.shengdian.staggerwithrecycle.widget.CircleImageView
+            android:layout_marginRight="15dp"
+            android:id="@+id/one_left"
+            android:scaleType="centerCrop"
+            android:layout_width="300dp"
+            android:layout_height="300dp"/>
+
+         <LinearLayout
+             android:id="@+id/one_rightLayout"
+             android:paddingRight="15dp"
+             android:weightSum="2"
+             android:layout_width="match_parent"
+             android:orientation="vertical"
+             android:layout_height="300dp">
+
+             <com.example.shengdian.staggerwithrecycle.widget.CircleImageView
+                 android:scaleType="fitXY"
+                 android:id="@+id/one_right1"
+                 android:layout_weight="1"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp" />
+
+             <com.example.shengdian.staggerwithrecycle.widget.CircleImageView
+                 android:scaleType="fitXY"
+                 android:layout_marginTop="15dp"
+                 android:id="@+id/one_right2"
+                 android:layout_weight="1"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp" />
+
+         </LinearLayout>
+
+           </LinearLayout>
+
+    </LinearLayout>
+
